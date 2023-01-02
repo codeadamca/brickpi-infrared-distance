@@ -15,9 +15,9 @@ try:
     # Create a loop to react to buttons
     while True:
 
-        # Get touch sensor status
         try:
 
+            # Get distance sensor status
             distance = BP.get_sensor(BP.PORT_1)
 
             print(distance)
